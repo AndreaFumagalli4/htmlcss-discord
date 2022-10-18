@@ -21,6 +21,10 @@
     height: 100%;
 }
 
+.white{
+    color: white;
+}
+
 .col{
     height: 480px;
 }
@@ -61,9 +65,7 @@ main section.king {
 }
 
 nav.header-top{
-    height: 45px;
     margin: 1rem;
-    /* line-height: 40px; */
 }
 
 nav div.login,
@@ -71,8 +73,14 @@ nav div.logo{
     flex-basis: 20%;
 }
 
+nav div.logo{
+    background-image: url("../img/logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 div.login button{
-    background-color: white;
     border: none;
     padding: .5rem 1rem;
     border-radius: 1rem;
@@ -90,6 +98,23 @@ nav ul.main-menu li{
     color: white;
     padding-right: 1rem;
 }
+
+div.jumbo-content h1{
+    padding: 1rem 0;
+    font-size: 3rem;
+}
+
+div.jumbo-content p{
+    padding: 1rem;
+    line-height: 1.75rem;
+}
+
+div.jumbo-content button{
+    padding: .5rem .7rem;
+    border: none;
+    border-radius: 1rem;
+}
+
 
 div.big-content{
     background-color: #228a22;
@@ -143,15 +168,21 @@ footer .footer-button{
 }
 
 div#jumbotron{
-    background-color: #00008a;
-    height: 450px;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
+    height: 500px;
 }
 
 div#jumbotron .jumbo-content{
-    width: 45%;
-    height: 350px;
-    background-color: #ed81ed;
+    width: 45%; 
+    text-align: center;
+    padding: 1rem;
 }
 
+button#browser-button{
+    background-color: #23272a;
+    margin-left: .7rem;
+}
 
