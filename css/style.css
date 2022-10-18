@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Cabin', sans-serif;
+}
+
 .flex{
     display: flex;
 }
@@ -45,6 +49,17 @@ header{
 
 main section {
     height: 500px;
+    margin: 10px;
+}
+
+main h2{
+    font-size: 2rem;
+    line-height: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+main p{
+    line-height: 1.5rem;
 }
 
 main img{
@@ -57,7 +72,6 @@ footer{
 
 main section.king {
     height: 900px;
-    /* background-color: aqua; */
 }
 
 nav.header-top{
@@ -74,7 +88,6 @@ div.login button{
     border: none;
     padding: .5rem 1rem;
     border-radius: 1rem;
-
 }
 
 nav ul.main-menu{
@@ -105,19 +118,9 @@ div.jumbo-content button{
     border-radius: 1rem;
 }
 
-div.small-col h2{
-    font-size: 2rem;
-    line-height: 2.5rem;
-    padding-bottom: 1rem;
-}
-
-div.small-col p{
-    line-height: 1.5rem;
-}
-
 div.big-content{
-    height: 800px;
     width: 100%;
+    text-align: center;
 }
 
 footer{
