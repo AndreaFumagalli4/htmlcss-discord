@@ -66,18 +66,12 @@ main section.king {
 
 nav.header-top{
     margin: 1rem;
+    align-items: center;
 }
 
 nav div.login,
 nav div.logo{
     flex-basis: 20%;
-}
-
-nav div.logo{
-    background-image: url("../img/logo.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 div.login button{
