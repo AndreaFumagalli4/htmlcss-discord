@@ -47,6 +47,10 @@ main section {
     height: 500px;
 }
 
+main img{
+    width: 100%;
+}
+
 footer{
     background-color: #23272a;
 }
@@ -101,22 +105,17 @@ div.jumbo-content button{
     border-radius: 1rem;
 }
 
-div.big-col img{
-    width: 100%;
-}
-
 div.small-col h2{
     font-size: 2rem;
-    line-height: 2.2rem;
+    line-height: 2.5rem;
     padding-bottom: 1rem;
 }
 
 div.small-col p{
-    line-height: 1.2rem;
+    line-height: 1.5rem;
 }
 
 div.big-content{
-    background-color: #228a22;
     height: 800px;
     width: 100%;
 }
